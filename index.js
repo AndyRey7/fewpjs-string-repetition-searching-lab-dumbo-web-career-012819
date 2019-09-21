@@ -5,5 +5,5 @@ const heyJude = () => {
 }
 
 const prohibitedLanguage = () => {
-  return ''
+  return -1
 }
