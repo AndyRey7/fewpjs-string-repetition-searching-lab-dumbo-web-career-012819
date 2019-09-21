@@ -1,5 +1,5 @@
 // Code your solution here
 
 const heyJude = () => {
-  return 
+  return "Na na na na na na na, na na na na, hey Jude.".repeat(16)
 }
