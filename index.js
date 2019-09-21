@@ -5,5 +5,7 @@ const heyJude = () => {
 }
 
 const prohibitedLanguage = (string) => {
-  if (string === "candycorn")
+  if (string === "candycorn" || string === "brusselssprouts") {
+    return -1
+  }
 }
