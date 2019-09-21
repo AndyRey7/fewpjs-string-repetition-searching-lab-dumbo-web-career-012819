@@ -5,7 +5,6 @@ const heyJude = () => {
 }
 
 const prohibitedLanguage = (string) => {
-  if (string === "candycorn" || string === "brusselssprouts") {
-    return -1
-  }
+  let noGood = /candycorn|brusselssprouts/ 
+  return string.search(noGood)
 }
